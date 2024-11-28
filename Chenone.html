@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon"
+        href="//chenone.com/cdn/shop/files/ChenOne_Logo_for_Website_Icon-01_32x32.jpg?v=1660285976">
+
+    <title> Chen One </title>
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="Chenone.css">
+
+    <!-- Boxicon link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Font-Awsome Link -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+
+    <header class="chenone-header">
+
+
+
+        <!-- Announcement-Bar Start -->
+
+        <nav class="announcement-bar">
+
+            <span class="announcement-span">YOU CAN NOW AVAIL BADMAY INSTALLMENT PLAN ON ORDER AMOUNT TILL
+                PKR-100,000</span>
+
+        </nav>
+
+        <!-- Announcement-Bar Start -->
+
+        <!-- Upper-Navbar Start -->
+
+        <nav class="upper-navbar">
+
+            <ul>
+
+                <li><a href="#"><i class='bx bxl-instagram instagram-logo'></i></a></li>
+                <li><a href="#"><i class='bx bxl-facebook-circle facebook-logo'></i></a></li>
+
+            </ul>
+
+        </nav>
+
+        <!-- Upper-Navbar Close -->
+
+
+        <!-- Lower-Navbar Start -->
+
+        <nav class="lower-navbar">
+
+            <div class="main-logos">
+
+
+                <div class="opensidebar">
+                    <i onclick="opensidebar()" class='bx bx-menu'></i>
+                </div>
+
+
+                <div class="search-logo">
+
+                    <ul>
+                        <li><a href="#">
+                                <i onclick="opensearchbar()" class='bx bx-search search-logo-svg'></i></a></li>
+                    </ul>
+
+                </div>
+
+                <div class="searchbar" id="searchbar">
+
+                    <div class="close-searchbar">
+                        <i onclick="closesearchbar()" class='bx bx-x'></i>
+                    </div>
+
+                    <form action="#" method="search">
+                        <div class="search-icon">
+                            <i class='bx bx-search-alt-2'></i>
+                        </div>
+                        <input type="text" placeholder="Search our store">
+                    </form>
+                </div>
+
+                <div class="main-heading">
+
+                    <h1>ChenOne</h1>
+
+                </div>
+
+                <div class="lower-two-logos">
+
+                    <ul>
+                        <li><a href="#"><i class="fa-regular fa-user user-logo"></i></a></li>
+                        <li><a href="#"><i class='bx bx-shopping-bag bag-logo'></i></a></li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="main-discount-container">
+
+                <div class="discount-1">
+                    <h6>UPTO 30% OFF</h6>
+                </div>
+                <div class="discount-2">
+                    <h6>FLAT 20% OFF</h6>
+                </div>
+                <div class="discount-3">
+                    <h6>40% OFF</h6>
+                </div>
+
+            </div>
+
+            <div class="nav-menu" id="sidebar">
+
+                <ul class="nav-menu-links">
+
+                    <div onclick="closesidebar()" class="sidebar-header"> <i class='bx bx-x'></i> </div>
+
+                    <li>
+                        <a href="#">Home <i class="fa-solid fa-angle-down down-arrow1"></i></a>
+
+                        <div class="side-bar-discount-1">
+                            <h6>
+                                UPTO 30% Off
+                            </h6>
+                        </div>
+
+                        <hr class="sidebar-hr">
+
+                        <div class="spacer"></div>
+
+                        <div class="home-dropdown">
+
+                            <div class="home-content">
+
+                                <div class="home-row1">
+                                    <header>Shop By Collection</header>
+                                    <hr class="home-hr">
+                                    <ul class="home-links">
+                                        <li><a href="#">Studio</a></li>
+                                        <li><a href="#">Hotel</a></li>
+                                        <li><a href="#">Luxury</a></li>
+                                        <li><a href="#">Exotic</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="home-row1">
+                                    <header>Bedding</header>
+                                    <hr class="home-hr">
+                                    <ul class="home-links">
+                                        <li><a href="#">Bed Sheets</a></li>
+                                        <li><a href="#">Comforter Set</a></li>
+                                        <li><a href="#">Duvet Cover Set</a></li>
+                                        <li><a href="#">Covers</a></li>
+                                        <li><a href="#">Bed Spread</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="home-row1">
+                                    <div class="flex">
+                                        <header>Fillings</header>
+                                        <div class="home-dropdown-discount">
+                                            <h6>UPTO 30% OFF</h6>
+                                        </div>
+                                    </div>
+                                    <hr class="home-hr">
+                                    <ul class="home-links">
+                                        <li><a href="#">Duvet</a></li>
+                                        <li><a href="#">Pillows</a></li>
+                                        <li><a href="#">Cushions</a></li>
+                                        <li><a href="#">Feather Products</a></li>
+                                    </ul>
+                                </div>
+
+
+
+                            </div>
+
+                        </div>
+
+                    </li>
+
+
+                    <li>
+                        <a href="#">Home Accessories <i class="fa-solid fa-angle-down down-arrow2"></i></a>
+
+                        <hr class="sidebar-hr">
+
+                        <div class="spacer"></div>
+
+                        <div class="homeaccessories-dropdown">
+
+                            <ul class="homeaccessories-content">
+
+                                <li><a href="#">Towels</a></li>
+                                <li><a href="#">Kitchen Accessories</a></li>
+                                <li><a href="#">Diffusers</a></li>
+                                <li><a href="#">Scented Candles</a></li>
+
+                            </ul>
+
+                        </div>
+                    </li>
+                    <li><a href="#">Pareesa Winter (Unstitched)</a>
+
+                        <div class="side-bar-discount-2">
+                            <h6>
+                                Flat 20% Off
+                            </h6>
+                        </div>
+                        <hr class="sidebar-hr">
+                    </li>
+                    <li>
+                        <a href="#"> Women <i class="fa-solid fa-angle-down down-arrow3"></i></a>
+
+                        <hr class="sidebar-hr">
+
+                        <div class="women-dropdown">
+
+                            <div class="women-content">
+
+                                <div class="women-row1">
+                                    <header>Shop By Season </header>
+                                    <hr class="women-hr">
+                                    <ul class="women-links">
+                                        <li><a href="#"> Winter Season </a></li>
+                                        <li><a href="#"> Summer Season </a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="women-row1">
+                                    <header> Summer 24 </header>
+                                    <hr class="women-hr">
+                                    <ul class="women-links">
+                                        <li><a href="#"> 2-3 pcs Suits </a></li>
+                                        <li><a href="#"> Single shirts </a></li>
+                                        <li><a href="#"> Trousers </a></li>
+                                        <li><a href="#"> T-Shirts </a></li>
+                                        <li><a href="#">Western Shirts t</a></li>
+                                        <li><a href="#"> Casoul Trousers </a></li>
+                                        <li><a href="#"> Pull On Trousers </a></li>
+                                        <li><a href="#"> Night Wear </a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="women-row1">
+                                    <header>Winter 23/24</header>
+                                    <hr class="women-hr">
+                                    <ul class="women-links">
+                                        <li><a href="#"> 2-3 Pcs Suit </a></li>
+                                        <li><a href="#">Single Shirts</a></li>
+                                        <li><a href="#">Western Shirts</a></li>
+                                        <li><a href="#">Jackets</a></li>
+                                        <li><a href="#">Sweaters</a></li>
+                                        <li><a href="#">Sweatshirts</a></li>
+                                        <li><a href="#">Lounge wear</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="women-row1">
+                                    <header>Winter 22/23</header>
+                                    <hr class="women-hr">
+                                    <ul class="women-links">
+                                        <li><a href="#"> Ready to Wear outfit</a></li>
+                                        <li><a href="#">Eastern Shirts</a></li>
+                                        <li><a href="#">Eastern Trousers</a></li>
+                                        <li><a href="#">Jackets</a></li>
+                                        <li><a href="#">Western Shirts</a></li>
+                                        <li><a href="#">Hoodies</a></li>
+                                        <li><a href="#">Tees & Sweatshirtsr</a></li>
+                                        <li><a href="#">Western Trousers</a></li>
+                                        <li><a href="#">Shrugs</a></li>
+                                        <li><a href="#">Night wear</a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="#">Men <i class="fa-solid fa-angle-down down-arrow4"></i></a>
+
+                        <hr class="sidebar-hr">
+
+                        <div class="spacer"></div>
+
+                        <div class="men-dropdown">
+
+                            <div class="men-content">
+
+                                <div class="men-row1">
+                                    <header>Shop By Season </header>
+                                    <hr class="men-hr">
+                                    <ul class="men-links">
+                                        <li><a href="#"> Winter Season </a></li>
+                                        <li><a href="#"> Summer Season </a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="men-row1">
+                                    <header> Western Wear </header>
+                                    <hr class="men-hr">
+                                    <ul class="men-links">
+                                        <li><a href="#">Polo Shirts</a></li>
+                                        <li><a href="#">Hoodie</a></li>
+                                        <li><a href="#">Sweatshirts</a></li>
+                                        <li><a href="#">T-Shirts</a></li>
+                                        <li><a href="#">Jeans</a></li>
+                                        <li><a href="#">Casual Shirts</a></li>
+                                        <li><a href="#">Chinos</a></li>
+                                        <li><a href="#">Track Suit</a></li>
+                                        <li><a href="#">Night Suits/ Pull On Trousers</a></li>
+                                        <li><a href="#">Jackets</a></li>
+                                        <li><a href="#">Sweaters</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="men-row1">
+                                    <header>Eastern Wear</header>
+                                    <hr class="men-hr">
+                                    <ul class="men-links">
+                                        <li><a href="#"> Unstitched-All season </a></li>
+                                        <li><a href="#">Unstitched Summer</a></li>
+                                        <li><a href="#">Western Shirts</a></li>
+                                        <li><a href="#">Shalwar Kameez</a></li>
+                                        <li><a href="#">Kurta</a></li>
+                                        <li><a href="#">Waist Coat</a></li>
+                                        <li><a href="#">Shalwar/Trouser</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="men-row1">
+                                    <header>Accessories</header>
+                                    <hr class="men-hr">
+                                    <ul class="men-links">
+                                        <li><a href="#"> Wallet</a></li>
+                                        <li><a href="#">Undergarments</a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="#">Kids <i class="fa-solid fa-angle-down down-arrow5"></i></a>
+
+                        <hr class="sidebar-hr">
+
+                        <div class="spacer"></div>
+
+
+                        <div class="kids-dropdown">
+
+                            <div class="kids-content">
+
+                                <div class="kids-row1">
+                                    <header> Boys Summer Wear </header>
+                                    <hr class="kids-hr">
+                                    <ul class="kids-links">
+                                        <li><a href="#"> Tees </a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="kids-row1">
+                                    <header> Girls Summer Wear </header>
+                                    <hr class="kids-hr">
+                                    <ul class="kids-links">
+                                        <li><a href="#">Kurti/Frock/Shalwar Kameez</a></li>
+                                        <li><a href="#">Shirts/Tops</a></li>
+                                        <li><a href="#">Tees</a></li>
+                                        <li><a href="#">Pants</a></li>
+                                        <li><a href="#">Night Suit/Pull On/Leggings</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="kids-row1">
+                                    <header> Boys Winter 22/23</header>
+                                    <hr class="kids-hr">
+                                    <ul class="kids-links">
+                                        <li><a href="#"> Sweatshirt/T-Shirt </a></li>
+                                        <li><a href="#"> Casual Shirt</a></li>
+                                        <li><a href="#"> Kurta/Shalwar Suit</a></li>
+                                        <li><a href="#">Night Suit/Pull On Trousers</a></li>
+                                        <li><a href="#">Sweaters/Panchos/Jackets/Hoodies</a></li>
+                                        <li><a href="#">Innerwear</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="kids-row1">
+                                    <header> Girls Winter 22/23</header>
+                                    <hr class="kids-hr">
+                                    <ul class="kids-links">
+                                        <li><a href="#"> Kurti/Frock/Shalwar Suit </a></li>
+                                        <li><a href="#"> Sweatshirt/Tops</a></li>
+                                        <li><a href="#"> Denim/Casual Trouser </a></li>
+                                        <li><a href="#">Night Suit/Pull On Trousers</a></li>
+                                        <li><a href="#">Legging/Jegging</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="#">Furniture <i class="fa-solid fa-angle-down down-arrow6"></i></a>
+
+                        <div class="side-bar-discount-3">
+                            <h6>
+                                Flat 25% Off
+                            </h6>
+                        </div>
+
+                        <hr class="sidebar-hr">
+
+
+                        <div class="spacer"></div>
+
+                        <div class="furniture-dropdown">
+
+                            <div class="furniture-content">
+
+                                <div class="furniture-row1">
+                                    <header> Bed Room Furniture </header>
+                                    <hr class="furniture-hr">
+                                    <ul class="furniture-links">
+                                        <li><a href="#"> Bed Sets </a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="furniture-row1">
+                                    <header> Living Room Furniture </header>
+                                    <hr class="furniture-hr">
+                                    <ul class="furniture-links">
+                                        <li><a href="#">Sofa Sets</a></li>
+                                        <li><a href="#">Coffee & End Tables</a></li>
+                                        <li><a href="#">Console & Ottoman</a></li>
+                                        <li><a href="#">Chairs/Recliners</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="furniture-row1">
+                                    <header> Dinning/Breakfast Tables Sets</header>
+                                    <hr class="furniture-hr">
+                                    <ul class="furniture-links">
+                                        <li><a href="#"> Dinning/Breakfast Table Sets </a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="furniture-row1">
+                                    <header> Furniture Accessories </header>
+                                    <hr class="furniture-hr">
+                                    <ul class="furniture-links">
+                                        <li><a href="#"> Smart Series </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li><a href="#">The Carat (Jewellery)</a>
+                        <hr class="sidebar-hr">
+                    </li>
+                </ul>
+
+
+                <div class="sidebar-logo">
+                    <div class="insta-logo">
+                        <i class='bx bxl-instagram instagram-logo'></i>
+                    </div>
+
+                    <div class="facebook-logo">
+                        <i class='bx bxl-facebook bxl-facebook-circle'></i>
+                    </div>
+                </div>
+
+            </div>
+
+        </nav>
+
+
+        <!-- Lower-Navbar Close -->
+
+    </header>
+
+    <footer class="chenone-footer">
+
+        <div class="chenone-footer-block">
+
+            <div class="chenone-footer-heading">
+
+                <div class="footer-heading">
+
+                    <h1>ChenOne</h1>
+
+                </div>
+
+                <div class="footer-subheading">
+                    <h6>Apparel</h6>
+                    <hr>
+                    <h6>Home</h6>
+                    <hr>
+                    <h6>Furniture</h6>
+                    <hr>
+                    <h6>Accessories</h6>
+                </div>
+
+            </div>
+
+            <div class="footer-chenone-container">
+
+                <div class="footer-chenone-heading">
+
+                    <h1 onclick="chenonedropdownopen1()">CHENONE
+                        <span class="footer-down-arrow-span1">
+                            <i class="fa-solid fa-angle-down footer-down-arrow1"></i>
+                        </span>
+                    </h1>
+
+                </div>
+
+                <div class="footer-chenone-content" id="dropdown1">
+
+                    <ul class="footer-chenone-content-list">
+
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Store Locations</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Editorial Blogs</a></li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="footer-policies-container">
+
+                <div class="footer-policies-heading">
+
+                    <h1 onclick="chenonedropdownopen2()">POLICIES
+                        <span class="footer-down-arrow-span2">
+                            <i class="fa-solid fa-angle-down footer-down-arrow2"></i>
+                        </span>
+                    </h1>
+
+                </div>
+
+                <div class="footer-policies-content" id="dropdown2">
+
+                    <ul class="footer-policies-content-list">
+
+                        <li><a href="#">Term & Conditions</a></li>
+                        <li><a href="#">Returns & Exchanges</a></li>
+                        <li><a href="#">Shipping Policy</a></li>
+                        <li><a href="#">Furniture Care Instructions</a></li>
+                        <li><a href="#">Warranty Coverage</a></li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="footer-find-us-container">
+
+                <div class="footer-find-us-heading">
+
+                    <h1 onclick="chenonedropdownopen3()">FIND US
+                        <span class="footer-down-arrow-span3">
+                            <i class="fa-solid fa-angle-down footer-down-arrow3"></i>
+                        </span>
+                    </h1>
+
+                </div>
+
+                <div class="footer-find-us-content" id="dropdown3">
+
+                    <p>HEADOFFICE: 64/A, E-1, Gulberg-III near Gaddafi Stadium Roundabout Lahore.</p>
+                    <p>HELPLINE: 0800-24361 (09:00 AM TO 06:00 PM) MON TO SAT</p>
+                    <p>WHATSAPP: 0320-9662019 (09:00 AM TO 06:00 PM) MON TO SAT</p>
+                    <p>EMAIL: info@chenone.com</p>
+
+                </div>
+
+            </div>
+
+            <div class="footer-end-content">
+
+                <p>© 2024 Chenone Official</p>
+                <p class="footer-end-content-p2">Powered By JOFTek Pakistan</p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
